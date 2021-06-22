@@ -1,5 +1,5 @@
 Hello {{user.username}}
-Welcome to Admission System
+Welcome to Instant Admission System
 
 We have just seen you have signed up for our application and want to welcome you to the family. We hope that the content you find on our website will be of use.
 
