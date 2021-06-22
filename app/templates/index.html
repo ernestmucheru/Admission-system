@@ -1,19 +1,16 @@
 {%extends 'base.html'%}
-{%import 'macros.html' as macro %}
-{%block styles%}
-    {{ super() }}
-    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
-{%endblock%}
-
 {%block content%}
 
 <div class="container">
 
     <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-primary">Welcome to Admission System</h2>
-            <img src="app/static/photos/edu.jpeg" alt="image">
+        <div class="col-md-8">
+            <h2 class="text-primary" style="text-align:center">Welcome to Admission System</h2>
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZWR1Y2F0aW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" alt="image" height="270px"width="100%px">
 
+        </div>
+        <div class="col-md-4">
+            <h1>something</h1>
         </div>
        
     </div>
