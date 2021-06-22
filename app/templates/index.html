@@ -1,0 +1,25 @@
+{%extends 'base.html'%}
+{%import 'macros.html' as macro %}
+{%block styles%}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{%endblock%}
+
+{%block content%}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="text-primary">Welcome to Admission System</h2>
+            <img src="app/static/photos/edu.jpeg" alt="image">
+
+        </div>
+       
+    </div>
+   
+
+    
+</div>
+
+{%endblock%}
