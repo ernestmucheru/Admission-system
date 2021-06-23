@@ -1,5 +1,5 @@
 export SECRET_KEY='fits2643'
-export MAIL_USERNAME='fitstargilii1194@gmail.com'
-export MAIL_PASSWORD='Gillie-2021'
+export MAIL_USERNAME='ernest.mucheru@student.moringaschool.com'
+export MAIL_PASSWORD='23$tudyS'
 
-python3.8 manage.py server
+python3 manage.py runserver

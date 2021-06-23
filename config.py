@@ -20,10 +20,10 @@ class ProdConfig(Config):
         SQLALCHEMY_DATABASE_URI =SQLALCHEMY_DATABASE_URI.replace("postgres://","postgresql://",1)
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://gilbert:34265182@localhost/test_admission'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://est:newpassword@localhost/test_admission'
 
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://gilbert:34265182@localhost/admission'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://est:newpassword@localhost/admission'
     DEBUG = True
 
 config_options = {
